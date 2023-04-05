@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "423012335018",
+    "firebase_url": "https://lonabase-8e88f-default-rtdb.firebaseio.com",
+    "project_id": "lonabase-8e88f",
+    "storage_bucket": "lonabase-8e88f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423012335018:android:8a386bfc18828fe2b4ffd3",
+        "android_client_info": {
+          "package_name": "com.example.lona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423012335018-6cvads64rqod3bde8m2oas0iphe3amda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr4ohLsfbhlqL0WxQrZhc79DaY6OYFL9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423012335018-6cvads64rqod3bde8m2oas0iphe3amda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423012335018:android:2e8663456aeec3eeb4ffd3",
+        "android_client_info": {
+          "package_name": "com.example.lonaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423012335018-6cvads64rqod3bde8m2oas0iphe3amda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr4ohLsfbhlqL0WxQrZhc79DaY6OYFL9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423012335018-6cvads64rqod3bde8m2oas0iphe3amda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp" >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/view_separation2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/treufle" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/name_plant"
+        style="@style/SubtitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_plant_name"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        android:layout_marginLeft="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/close_buttom"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_close"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/popup_plant_description"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="@string/popup_plant_description"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/popup_plant_petite"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_plant_petite"
+        app:layout_constraintStart_toStartOf="@+id/popup_plant_description"
+        app:layout_constraintTop_toBottomOf="@+id/popup_plant_description" />
+
+    <!--<TextView
+        android:id="@+id/popup_plant_description_subtitle"
+        style="@style/TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:text="@string/popup_plant_description_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_plant_petite"
+        app:layout_constraintTop_toBottomOf="@+id/popup_plant_petite"
+         />
+
+    <TextView
+        android:id="@+id/popup_plant_type"
+        style="@style/DefaultTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_plant_type"
+        app:layout_constraintStart_toStartOf="@+id/popup_plant_description_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/popup_plant_description_subtitle" />
+-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lona</string>
+    <!--Page d'accueil-->
+    <string name="home_page_title">Home</string>
+    <string name="home_page_last_plant">Liste des plantes</string>
+
+    <!-- Localize -->
+    <string name="localize_page_title">Localize</string>
+    <string name="search_bar">Seach a city</string>
+
+    <!-- Plante customize -->
+    <string name="item_plant_name">Name of plant</string>
+    <string name="item_plant_description">Plant description</string>
+
+    <!-- fenetre popup -->
+    <string name="popup_plant_name">Plant name</string>
+    <string name="popup_plant_description">Description</string>
+    <string name="popup_plant_description_subtitle">Climat</string>
+    <string name="popup_plant_petite">Petite Description</string>
+    <string name="popup_plant_grow_subtitile">Slow</string>
+    <string name="popup_plant_type">Type</string>
+    <string name="popup_plant_water_subtitle">Slow</string>
+    <string name="home">home</string>
+    <string name="location">location</string>
+</resources>
